@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Yulla Kanda Adventures</title>
+ <style>
+ * { box-sizing: border-box; margin: 0; padding: 0; }
+ body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; color: #333; }
+ header { background: #1b4f72; color: #fff; padding: 1rem; text-align: center; position: sticky; top: 0; z-index: 100; }
+ nav { display: flex; justify-content: space-between; align-items: center; }
+ .nav-links { list-style: none; display: flex; gap: 15px; }
+ .nav-links a { color: #fff; text-decoration: none; font-size: 0.9rem; }
+ .hero { background: url('https://images.unsplash.com/photo-1544198365-f8d68967da07?auto=format&fit=crop&w=800&q=80') no-repeat center center/cover; color: #fff; text-align: center; padding: 100px 20px; }
+ .hero h1 { font-size: 2.5rem; margin-bottom: 10px; }
+ section { padding: 20px; }
+ .section-title { text-align: center; margin-bottom: 20px; font-size: 1.8rem; color: #1b4f72; }
+ .grid { display: grid; grid-template-columns: 1fr; gap: 20px; }
+ .card { background: #f8f9fa; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+ .card img { width: 100%; height: 200px; object-fit: cover; }
+ .card-content { padding: 15px; }
+ .card-content h3 { margin-bottom: 10px; }
+ .price { font-weight: bold; color: #d35400; font-size: 1.2rem; display: block; margin-top: 10px; }
+ .btn { display: inline-block; background: #d35400; color: #fff; padding: 10px 20px; border-radius: 5px; text-decoration: none; text-align: center; width: 100%; font-weight: bold; }
+ form { background: #f4f4f4; padding: 20px; border-radius: 8px; }
+ form input, form textarea, form select { width: 100%; padding: 10px; margin-bottom: 15px; border: 1px solid #ddd; border-radius: 5px; }
+ .faq-item { background: #f8f9fa; margin-bottom: 15px; padding: 15px; border-radius: 8px; border-left: 4px solid #1b4f72; }
+ .faq-item h3 { margin-bottom: 5px; color: #1b4f72; }
+ .contact-info { text-align: center; margin-top: 20px; font-size: 1.2rem; color: #1b4f72; font-weight: bold; }
+ footer { background: #2c3e50; color: #fff; text-align: center; padding: 20px; font-size: 0.9rem; }
+ @media (min-width: 768px) {
+ .grid { grid-template-columns: repeat(2, 1fr); }
+ }
+ </style>
+</head>
+<body>
+
+<header>
+ <nav>
+ <div class="logo"><strong>Yulla Kanda Adventures</strong></div>
+ <ul class="nav-links">
+ <li><a href="#about">About</a></li>
+ <li><a href="#destinations">Destinations</a></li>
+ <li><a href="#packages">Packages</a></li>
+ <li><a href="#reviews">Reviews</a></li>
+ <li><a href="#faq">FAQ</a></li>
+ <li><a href="#contact">Contact</a></li>
+ </ul>
+ </nav>
+</header>
+
+<div class="hero">
+ <h1>Explore Yulla Kanda</h1>
+ <p>Trek to the world's highest Krishna Temple in the heart of Himachal Pradesh.</p>
+</div>
+
+<section id="about">
+ <h2 class="section-title">Welcome to Yulla Kanda</h2>
+ <div class="card">
+ <div class="card-content">
+ <h3>Discover the Mystical Himalayas</h3>
+ <p>Experience the divine beauty of Yulla Kanda, home to the world's highest Lord Krishna Temple located beside a pristine glacial lake at nearly 3,900 meters. Our community offers authentic Pahadi hospitality through traditional Yulla homestays, where you can immerse yourself in local Kinnauri culture and traditions. Embark on a breathtaking trekking journey through dense pine forests and alpine meadows, perfectly blending spiritual pilgrimage with thrilling high-altitude adventure.</p>
+ </div>
+ </div>
+</section>
+
+<section id="destinations" style="background: #eef2f3;">
+ <h2 class="section-title">Our Adventures & Destinations</h2>
+ <div class="grid">
+ <div class="card">
+ <img src="https://i.supaimg.com/7e726bf4-e089-4c23-8a90-c09ecb01d07b/140aa031-5917-4b39-93d6-48f6dc3beddb.jpg?auto=format&fit=crop&w=500&q=80" alt="Shrikhand Mahadev">
+ <div class="card-content">
+ <h3>Shrikhand Mahadev</h3>
+ <p>A challenging pilgrimage trek leading to a revered natural rock Shivling amidst stunning high-altitude landscapes.</p>
+ </div>
+ </div>
+ <div class="card">
+ <img src="https://i.supaimg.com/7e726bf4-e089-4c23-8a90-c09ecb01d07b/7d53f621-8bab-4815-abfa-364671056978.jpg?auto=format&fit=crop&w=500&q=80" alt="Yulla Kanda">
+ <div class="card-content">
+ <h3>Yulla Kanda</h3>
+ <p>A sacred high-altitude glacial lake housing the world's highest Lord Krishna Temple, surrounded by lush alpine meadows.</p>
+ </div>
+ </div>
+ <div class="card">
+ <img src="https://i.supaimg.com/7e726bf4-e089-4c23-8a90-c09ecb01d07b/b2a41cc4-8411-470b-a7da-702b542665d2.jpg?auto=format&fit=crop&w=500&q=80" alt="Kinner Kailash">
+ <div class="card-content">
+ <h3>Kinner Kailash</h3>
+ <p>The majestic abode of Lord Shiva, offering awe-inspiring views of towering snow-capped peaks and rugged terrain.</p>
+ </div>
+ </div>
+ <div class="card">
+ <img src=https://i.supaimg.com/7e726bf4-e089-4c23-8a90-c09ecb01d07b/de1e32e5-18b4-4fb7-beda-369c79c72f92.jpg?auto=format&fit=crop&w=500&q=80" alt="Kalpa">
+ <div class="card-content">
+ <h3>Kalpa</h3>
+ <p>A serene village known for its apple orchards and panoramic vistas of the spectacular Kinner Kailash range.</p>
+ </div>
+ </div>
+ <div class="card">
+ <img src=https://i.supaimg.com/7e726bf4-e089-4c23-8a90-c09ecb01d07b/df5eb7df-6783-4156-b380-ceb56043f23d.jpg?auto=format&fit=crop&w=500&q=80" alt="Bhimakali Temple">
+ <div class="card-content">
+ <h3>Bhimakali Temple</h3>
+ <p>An architecturally magnificent temple in Sarahan, blending Hindu and Buddhist styles with deep historical roots.</p>
+ </div>
+ </div>
+ <div class="card">
+ <img src="https://i.supaimg.com/7e726bf4-e089-4c23-8a90-c09ecb01d07b/eb193cdf-bfd5-456f-af95-c99a030498a3.jpg?auto=format&fit=crop&w=500&q=80" alt="Mandi Temples">
+ <div class="card-content">
+ <h3>Mandi Temples</h3>
+ <p>Explore the historic temple town of Mandi, often called the Varanasi of the Hills, situated along the Beas River.or karsog village views and temples Explore all over mandi</p>
+ </div>
+ </div>
+ <div class="card">
+ <img src="https://i.supaimg.com/7e726bf4-e089-4c23-8a90-c09ecb01d07b/5eb89cb5-d002-41db-8a69-6dc2084c4706.jpg?auto=format&fit=crop&w=500&q=80" alt="Shikari Mata Temple">
+ <div class="card-content">
+ <h3>Shikari Mata Temple</h3>
+ <p>A unique open-air mountaintop temple offering breathtaking 360-degree views of the surrounding ranges.</p>
+ </div>
+ </div>
+ </div>
+</section>
+
+<section id="packages">
+ <h2 class="section-title">Our Trekking Packages</h2>
+ <div class="grid">
+ <div class="card">
+ <img src="https://i.supaimg.com/7e726bf4-e089-4c23-8a90-c09ecb01d07b/7d53f621-8bab-4815-abfa-364671056978.jpg?auto=format&fit=crop&w=500&q=80" alt="Yulla Kanda Lake">
+ <div class="card-content">
+ <h3>Yulla Kanda Sacred Trek</h3>
+ <p>A 2 night  3 day spiritual and adventurous journey through dense forests and alpine meadows to the mystical glacial lake housing the Krishna Temple.</p>
+ <span class="price">Price: ₹8,000 per person with guide and pickup shimla to shimla </span>
+ <br>
+ <a href="#contact" class="btn">Send Enquiry</a>
+ </div>
+ </div>
+ <div class="card">
+ <img src="https://i.supaimg.com/7e726bf4-e089-4c23-8a90-c09ecb01d07b/140aa031-5917-4b39-93d6-48f6dc3beddb.jpg?auto=format&fit=crop&w=500&q=80" alt="Shrikhand Mahadev">
+ <div class="card-content">
+ <h3>Shrikhand Mahadev Yatra</h3>
+ <p>Embark on the ultimate 5 night 6 day spiritual pilgrimage to the holy Shrikhand Mahadev peak, featuring a challenging trek through surreal landscapes.</p>
+ <span class="price">Price: ₹19,500 per person with guide and pickuo rampur to rampur </span>
+ <br>
+ <a href="#contact" class="btn">Send Enquiry</a>
+ </div>
+ </div>
+ <div class="card">
+ <img src="https://i.supaimg.com/7e726bf4-e089-4c23-8a90-c09ecb01d07b/2fb5b921-60eb-4def-acc4-57f28241f44c.jpg?auto=format&fit=crop&w=500&q=80" alt="Bhimakali Temple">
+ <div class="card-content">
+ <h3>Bhimakali Temple & Kalpa Tour</h3>
+ <p>A 4 night5 day cultural tour exploring the majestic Bhimakali Temple in Sarahan and the serene beauty of Kalpa with sweeping views of Kinner Kailash.</p>
+ <span class="price">Price: ₹15,999 per person with guide pickup rampur to rampur </span>
+ <br>
+ <a href="#contact" class="btn">Send Enquiry</a>
+ </div>
+ </div>
+ </div>
+</section>
+<div class="card">
+ <img src="https://i.supaimg.com/7e726bf4-e089-4c23-8a90-c09ecb01d07b/76bc45aa-c65f-4b6a-bc3b-1e318934e958.jpg?auto=format&fit=crop&w=500&q=80" alt="Bhimakali Temple">
+ <div class="card-content">
+ <h3>Kinner Kailash </h3>
+ <p>A 3 night 4 day cultural tour exploring the mountaintop with sweeping views of Kinner Kailash.</p>
+ <span class="price">Price: ₹12,000 per person pickup shimla to shimla </span>
+ <br>
+ <a href="#contact" class="btn">Send Enquiry</a>
+ </div>
+ </div>
+ <div class="card">
+<section id="reviews" style="background: #eef2f3;">
+ <h2 class="section-title">Trekkers' Experiences & Reviews</h2>
+ <div class="grid">
+ <div class="card">
+ <img src="https://i.supaimg.com/7e726bf4-e089-4c23-8a90-c09ecb01d07b/5b65722f-50f0-454c-a565-1c986022ded7.jpg?auto=format&fit=crop&w=500&q=80" alt="Trek Review 1">
+ <div class="card-content">
+ <h3>"An Unforgettable Spiritual Journey"</h3>
+ <p>"The trek to Yulla Kanda was mesmerizing. The homestay experience allowed us to truly understand the Pahadi culture. Highly recommended!"</p>
+ <p><strong>- Rahul M.</strong></p>
+ </div>
+ </div>
+ <div class="card">
+ <img src="https://i.supaimg.com/7e726bf4-e089-4c23-8a90-c09ecb01d07b/919b5640-5d1d-4595-abb1-fd5c17499dfa.jpg?auto=format&fit=crop&w=500&q=80" alt="Trek Review 2">
+ <div class="card-content">
+ <h3>"Breathtaking Views and Great Hospitality"</h3>
+ <p>"The locals are incredibly welcoming, and the camping experience beside the glacial lake is something you cannot miss."</p>
+ <p><strong>- mayank S.</strong></p>
+ </div>
+ </div>
+ </div>
+</section>
+
+<section id="faq">
+ <h2 class="section-title">Frequently Asked Questions</h2>
+ <div class="faq-item">
+ <h3>Q1: What is the best time to visit Yulla Kanda?</h3>
+ <p>A: The best time to visit is from mid-May to mid-October when the weather is pleasant and the trails are accessible.</p>
+ </div>
+ <div class="faq-item">
+ <h3>Q2: Is prior trekking experience required?</h3>
+ <p>A: The Yulla Kanda trek is rated as easy to moderate, making it suitable for beginners with a basic level of physical fitness.</p>
+ </div>
+ <div class="faq-item">
+ <h3>Q3: What gear should I carry for the trek?</h3>
+ <p>A: We recommend carrying sturdy trekking shoes, layered warm clothing, a raincoat, and a personal water bottle.</p>
+ </div>
+ <div class="faq-item">
+ <h3>Q4: What kind of accommodation is provided?</h3>
+ <p>A: Accommodation includes traditional village homestays and premium alpine tents during the trekking days.</p>
+ </div>
+</section>
+
+<section id="contact" style="background: #f4f4f4;">
+ <h2 class="section-title">Send Us An Enquiry</h2>
+ <form action="#" method="POST">
+ <input type="text" placeholder="Your Name" required>
+ <input type="email" placeholder="Your Email" required>
+ <input type="tel" placeholder="Mobile Number" required>
+ <select required>
+ <option value="" disabled selected>Interested In</option>
+ <option value="yulla-kanda">Yulla Kanda Sacred Trek</option>
+ <option value="shrikhand">Shrikhand Mahadev Yatra</option>
+ <option value="kalpa">Bhimakali Temple & Kalpa Tour</option>
+ <option value="custom">Custom Plan</option>
+ </select>
+ <textarea rows="4" placeholder="Your queries or special requests"></textarea>
+ <button type="submit" class="btn">Submit Enquiry</button>
+ </form>
+ <div class="contact-info">
+ <p>Or call us directly at: <a href="tel:+917018055031">+91-70180-55031</a></p>
+ </div>
+</section>
+
+<footer>
+ <p>&copy; 2026 Yulla Kanda Adventures. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
